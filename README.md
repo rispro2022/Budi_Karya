@@ -1,5 +1,9 @@
-# INKA-Full
+# BUDI KARYA
 
 ## Anggota
-### Calvin Jeremy
 ### Aji Parama
+### Rachmad Hartono
+### Wardatul Jannah
+### Suryandaru Martawirya
+### Raymond Christian
+### Febby Fauziah
