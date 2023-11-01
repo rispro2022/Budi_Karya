@@ -154,7 +154,7 @@ const routes = [
     name: 'HomePage',
     component: HomeView,
     meta: {
-      title: "Home - PT.INKA"
+      title: "Home - Budikarya Teknik"
     }
   },
 
@@ -163,7 +163,7 @@ const routes = [
     name: 'GraphPage',
     component: GraphView,
     meta: {
-      title: "Progress Pengerjaan Proyek - PT.INKA"
+      title: "Progress Pengerjaan Proyek - Budikarya Teknik"
     }
   },
 
@@ -172,7 +172,7 @@ const routes = [
     name: 'FormPage',
     component: FormView,
     meta: {
-      title: "Form - PT.INKA"
+      title: "Form - Budikarya Teknik"
     }
   },
 
@@ -181,7 +181,7 @@ const routes = [
     name: 'LoginPage',
     component: LoginView,
     meta: {
-      title: "Login - PT.INKA"
+      title: "Login - Budikarya Teknik"
     }
   },
 
@@ -190,7 +190,7 @@ const routes = [
     name: 'TablePage',
     component: TableView,
     meta: {
-      title: "Table - PT.INKA"
+      title: "Table - Budikarya Teknik"
     }
   },
 
@@ -199,7 +199,7 @@ const routes = [
     name: 'Tambah Data Pelanggan',
     component: TambahPelanggan,
     meta: {
-      title: "Tambah Pelanggan - PT.INKA"
+      title: "Tambah Pelanggan - Budikarya Teknik"
     }
   },
 
@@ -208,7 +208,7 @@ const routes = [
     name: 'Tambah Data Pemasok',
     component: TambahPemasok,
     meta: {
-      title: "Tambah Pemasok - PT.INKA"
+      title: "Tambah Pemasok - Budikarya Teknik"
     }
   },
 
@@ -217,7 +217,7 @@ const routes = [
     name: 'Tambah Data Kota',
     component: TambahKota,
     meta: {
-      title: "Tambah Kota - PT.INKA"
+      title: "Tambah Kota - Budikarya Teknik"
     }
   },
   
@@ -226,7 +226,7 @@ const routes = [
     name: 'Tambah Data Negara',
     component: TambahNegara,
     meta: {
-      title: "Tambah Negara - PT.INKA"
+      title: "Tambah Negara - Budikarya Teknik"
     }
   },
 
@@ -235,7 +235,7 @@ const routes = [
     name: 'Tambah Data Operator',
     component: TambahOperator,
     meta: {
-      title: "Tambah Operator - PT.INKA"
+      title: "Tambah Operator - Budikarya Teknik"
     }
   },
 
@@ -244,7 +244,7 @@ const routes = [
     name: 'Tambah Data Libur',
     component: TambahTanggalLibur,
     meta: {
-      title: "Tambah Tanggal Libur - PT.INKA"
+      title: "Tambah Tanggal Libur - Budikarya Teknik"
     }
   },
 
@@ -253,7 +253,7 @@ const routes = [
     name: 'Tambah Jenis Produk',
     component: TambahJnsProd,
     meta: {
-      title: "Tambah Jenis Produk - PT.INKA"
+      title: "Tambah Jenis Produk - Budikarya Teknik"
     }
   },
 
@@ -262,7 +262,7 @@ const routes = [
     name: 'Tambah Struktur Produk',
     component: TambahStrProd,
     meta: {
-      title: "Struktur Produk - PT.INKA"
+      title: "Struktur Produk - Budikarya Teknik"
     }
   },
 
@@ -271,7 +271,7 @@ const routes = [
     name: 'Pesan Material',
     component: PesanMaterial,
     meta: {
-      title: "Pesan Material - PT.INKA"
+      title: "Pesan Material - Budikarya Teknik"
     }
   },
 
@@ -280,7 +280,7 @@ const routes = [
     name : 'List Purchase Material',
     component : ListPurchaseMaterial,
     meta : {
-        title : "List Purchase Material - PT.INKA"
+        title : "List Purchase Material - Budikarya Teknik"
     }
   },
 
@@ -290,7 +290,7 @@ const routes = [
     name : 'Purchase Material Item',
     component : PurchaseMaterialItem,
     meta : {
-        title : "Purchase Material Item - PT.INKA"
+        title : "Purchase Material Item - Budikarya Teknik"
     }
 
   },
@@ -301,7 +301,7 @@ const routes = [
       name : 'List Purchase Material Item',
       component : ListPurchaseMaterialItem,
       meta : {
-          title : "List Purchase Material Item - PT.INKA"
+          title : "List Purchase Material Item - Budikarya Teknik"
       }
 
   },
@@ -311,7 +311,7 @@ const routes = [
     name: 'Tambah Jenis Material',
     component: TambahJnsMaterial,
     meta: {
-      title: "Jenis Material - PT.INKA"
+      title: "Jenis Material - Budikarya Teknik"
     }
   },
 
@@ -320,7 +320,7 @@ const routes = [
     name: 'Lihat Proyek',
     component: LihatProyek,
     meta: {
-      title: "List Proyek - PT.INKA"
+      title: "List Proyek - Budikarya Teknik"
     }
   },
 
@@ -329,7 +329,7 @@ const routes = [
     name: 'Tambah Proyek',
     component: TambahProyek,
     meta: {
-      title: "Proyek Baru - PT.INKA"
+      title: "Proyek Baru - Budikarya Teknik"
     }
   },
 
@@ -338,7 +338,7 @@ const routes = [
     name: 'Proses Terakhir',
     component: ProsesTerakhir,
     meta: {
-      title: "Proses Terakhir - PT.INKA"
+      title: "Proses Terakhir - Budikarya Teknik"
     }
   },
 
@@ -347,7 +347,7 @@ const routes = [
     name: 'Tambah Stasiun Kerja',
     component: TambahStasiunKerja,
     meta: {
-      title: "Stasiun Kerja - PT.INKA"
+      title: "Stasiun Kerja - Budikarya Teknik"
     }
   },
 
@@ -356,7 +356,7 @@ const routes = [
     name: 'Tambah Lini Produksi',
     component: TambahLiniProduksi,
     meta: {
-      title: "Lini Produksi - PT.INKA"
+      title: "Lini Produksi - Budikarya Teknik"
     }
   },
 
@@ -365,7 +365,7 @@ const routes = [
     name: 'Lihat Stasiun Kerja',
     component: LihatStasiunKerja,
     meta: {
-      title: "Lihat Stasiun Kerja - PT.INKA"
+      title: "Lihat Stasiun Kerja - Budikarya Teknik"
     }
   },
 
@@ -384,7 +384,7 @@ const routes = [
     name: 'Pantau Operasi',
     component: PantauOperasi,
     meta: {
-      title: "Pantau Operasi - PT.INKA"
+      title: "Pantau Operasi - Budikarya Teknik"
     }
   },
 
@@ -393,7 +393,7 @@ const routes = [
     name : 'List Pelanggan',
     component : ListPelanggan,
     meta :{
-      title : "List Pelanggan - PT.INKA"
+      title : "List Pelanggan - Budikarya Teknik"
     }
   },
 
@@ -402,7 +402,7 @@ const routes = [
     name : 'Proyek by Customer',
     component : ProyekListbyCustomer,
     meta :{
-      title : "Proyek by Customer - PT.INKA"
+      title : "Proyek by Customer - Budikarya Teknik"
     }
   },
 
@@ -411,7 +411,7 @@ const routes = [
     name : 'List Kota',
     component : ListKota,
     meta :{
-      title : "List Kota - PT.INKA"
+      title : "List Kota - Budikarya Teknik"
     }
   },
 
@@ -420,7 +420,7 @@ const routes = [
     name : 'List Negara',
     component : ListNegara,
     meta :{
-      title : "List Negara - PT.INKA"
+      title : "List Negara - Budikarya Teknik"
     }
   },
 
@@ -429,7 +429,7 @@ const routes = [
     name : 'List Pemasok',
     component : ListPemasok,
     meta :{
-      title : "List Pemasok - PT.INKA"
+      title : "List Pemasok - Budikarya Teknik"
     }
   },
 
@@ -438,7 +438,7 @@ const routes = [
     name : 'List Stasiun',
     component : ListStasiun,
     meta : {
-      title : "List Stasiun - PT.INKA"
+      title : "List Stasiun - Budikarya Teknik"
     }
   },
 
@@ -447,7 +447,7 @@ const routes = [
     name : 'List Rincian Proyek',
     component : ListRincianProyek,
     meta : {
-      title : "List Rincian Proyek - PT.INKA"
+      title : "List Rincian Proyek - Budikarya Teknik"
     }
   },
 
@@ -456,7 +456,7 @@ const routes = [
     name : 'List Rincian Proyek by Proyek',
     component : ListRProyekbyProyek,
     meta : {
-        title : "List Rincian Proyek by Proyek - PT.INKA"
+        title : "List Rincian Proyek by Proyek - Budikarya Teknik"
     }
   },
 
@@ -465,7 +465,7 @@ const routes = [
     name : 'List Operasi',
     component : ListOperasi,
     meta : {
-      title : "List Operasi - PT.INKA"
+      title : "List Operasi - Budikarya Teknik"
     }
   },
 
@@ -474,7 +474,7 @@ const routes = [
     name : 'List Produk',
     component : ListProduk,
     meta: {
-      title : "List Produk - PT.INKA"
+      title : "List Produk - Budikarya Teknik"
     }
   },  
   
@@ -483,7 +483,7 @@ const routes = [
     name : 'List Produk by Rincian Proyek',
     component : ListProdukbyRProyek,
     meta : {
-      title : "List Produk by Rincian Proyek - PT.INKA"
+      title : "List Produk by Rincian Proyek - Budikarya Teknik"
     }
   },
 
@@ -492,7 +492,7 @@ const routes = [
     name : 'List Jenis Produk',
     component : ListJenisProduk,
     meta : {
-      title : "List Jenis Produk - PT.INKA"
+      title : "List Jenis Produk - Budikarya Teknik"
     }
   },
 
@@ -501,7 +501,7 @@ const routes = [
     name : 'List Jenis Produk by RProyek',
     component : ListJenisProdukbyRProyek,
     meta : {
-      title : "List Jenis Produk by R.Proyek - PT.INKA"
+      title : "List Jenis Produk by R.Proyek - Budikarya Teknik"
     }
   },
 
@@ -510,7 +510,7 @@ const routes = [
     name : 'List Struktur Jenis Produk',
     component : ListStruktrJenisProduk,
     meta : {
-      title : "List Struktur Jenis Produk - PT.INKA"
+      title : "List Struktur Jenis Produk - Budikarya Teknik"
     }
   },
 
@@ -519,7 +519,7 @@ const routes = [
     name : 'List Struktur Jenis Produk by Jenis Produk',
     component :  ListSJProdukbyJProduk,
     meta : {
-      title : "List Struktur Jenis Produk by Jenis Produk - PT.INKA"
+      title : "List Struktur Jenis Produk by Jenis Produk - Budikarya Teknik"
     }
   },
 
@@ -528,7 +528,7 @@ const routes = [
     name : 'List Process',
     component : ListProses,
     meta : {
-      title : "List Proses - PT.INKA"
+      title : "List Proses - Budikarya Teknik"
     }
   },
 
@@ -539,7 +539,7 @@ const routes = [
     name : 'List Process by Struktur Jenis Produk',
     component : ListProsesbySJProduk,
     meta : {
-      title : "List Process by Struktur Jenis Produk - PT.INKA"
+      title : "List Process by Struktur Jenis Produk - Budikarya Teknik"
     }
   },
 
@@ -549,7 +549,7 @@ const routes = [
       name : 'List Jenis Proses',
       component : ListJenisProses,
       meta : {
-         title : "List Jenis Proses - PT.INKA"
+         title : "List Jenis Proses - Budikarya Teknik"
       }
        
     },
@@ -560,7 +560,7 @@ const routes = [
       name : 'Tambah Jenis Proses',
       component : TambahJenisProses,
       meta : {
-        title : "Tambah Jenis Proses - PT.INKA"
+        title : "Tambah Jenis Proses - Budikarya Teknik"
       }
 
     },
@@ -570,7 +570,7 @@ const routes = [
     name : 'List Lini Produksi',
     component : ListLiniProduksi,
     meta : {
-      title : "List Lini Produksi - PT.INKA"
+      title : "List Lini Produksi - Budikarya Teknik"
     }
   },
 
@@ -579,7 +579,7 @@ const routes = [
     name : 'Tambah Proses Baru',
     component : TambahProses,
     meta : {
-      title : "Tambah Proses - PT.INKA"
+      title : "Tambah Proses - Budikarya Teknik"
     }
   },
 
@@ -588,7 +588,7 @@ const routes = [
     name : 'Tambah Rincian Proyek',
     component : AddRincianProyek,
     meta : {
-      title : "Tambah Rincian Proyek - PT.INKA"
+      title : "Tambah Rincian Proyek - Budikarya Teknik"
     }
   },
   
@@ -606,7 +606,7 @@ const routes = [
     name : 'Tambah Produk',
     component : TambahProduk,
     meta : {
-      title : "Tambah Produk - PT.INKA"
+      title : "Tambah Produk - Budikarya Teknik"
     }
   },
 
@@ -615,7 +615,7 @@ const routes = [
     name : 'Tambah Produk by RProyek',
     component : TambahProdukbyRProyek,
     meta : {
-      title : "Tambah Produk by Rincian Proyek - PT.INKA"
+      title : "Tambah Produk by Rincian Proyek - Budikarya Teknik"
     }
   },
 
@@ -624,7 +624,7 @@ const routes = [
     name : 'Tambah Struktur Jenis Produk by Jenis Produk',
     component : TambahStrukturProdukbyProduk,
     meta : {
-      title : "Tambah Sturktur Jenis Produk by Jenis Produk - PT.INKA"
+      title : "Tambah Sturktur Jenis Produk by Jenis Produk - Budikarya Teknik"
     }
   },
 
@@ -633,7 +633,7 @@ const routes = [
     name : 'Tambah Proyek by Customer',
     component : PesanProyekbyCustomer,
     meta : {
-        title : "Tambah Proyek by Customer - PT.INKA"
+        title : "Tambah Proyek by Customer - Budikarya Teknik"
     }
   },
 
@@ -642,7 +642,7 @@ const routes = [
     name : 'Tambah Stasiun Kerja by Process',
     component : TambahStasiunKerjabyProcess,
     meta : {
-      title : "Memilih Stasiun Kerja by Process - PT.INKA"
+      title : "Memilih Stasiun Kerja by Process - Budikarya Teknik"
     }
   },
 
@@ -651,7 +651,7 @@ const routes = [
     name : 'Tambah Proses by Struktur Jenis Produk',
     component : TambahProsesBySJProduk,
     meta : {
-      title : "Tambah Proses by Struktur Jenis Produk - PT.INKA"
+      title : "Tambah Proses by Struktur Jenis Produk - Budikarya Teknik"
     }
   },
 
@@ -660,7 +660,7 @@ const routes = [
     name : 'List Tipe Material',
     component : ListMaterialType,
     meta : {
-      title : "List Tipe Material - PT.INKA"
+      title : "List Tipe Material - Budikarya Teknik"
     }
   },
 
@@ -669,7 +669,7 @@ const routes = [
     name : 'List Stock Material',
     component : ListStockMaterial,
     meta : {
-      title : "List Stock Material - PT.INKA"
+      title : "List Stock Material - Budikarya Teknik"
     }
   },
 
@@ -678,7 +678,7 @@ const routes = [
     name : 'Add Stock Material',
     component : AddStockMaterial,
     meta : {
-      title : "Add Stock Material - PT.INKA"
+      title : "Add Stock Material - Budikarya Teknik"
     }
   },
 
@@ -687,7 +687,7 @@ const routes = [
     name : 'Tambah Material Kosong',
     component : TambahMaterialKosong,
     meta : {
-      title : "Tambah Material Kosong - PT.INKA"
+      title : "Tambah Material Kosong - Budikarya Teknik"
     }
   },
   {
@@ -695,7 +695,7 @@ const routes = [
     name : 'List Klasifikasi Material',
     component : ListKlasifikasiMaterial,
     meta : {
-      title : "List Klasifikasi Material - PT.INKA"
+      title : "List Klasifikasi Material - Budikarya Teknik"
     },
   },
   {
@@ -720,7 +720,7 @@ const routes = [
     name : 'List Grup Material',
     component : ListGrupMaterial,
     meta : {
-      title : "List Grup Material - PT.INKA"
+      title : "List Grup Material - Budikarya Teknik"
     },
   },
   {
@@ -728,7 +728,7 @@ const routes = [
     name : 'Tambah Material Consumable',
     component : TambahMaterialConsumable,
     meta : {
-      title : "Tambah Material Consumable - PT.INKA"
+      title : "Tambah Material Consumable - Budikarya Teknik"
     }
   },
 
@@ -737,7 +737,7 @@ const routes = [
     name : 'Status Pengerjaan WS',
     component : LihatStatusPengerjaanWS,
     meta : {
-      title : "Status Pengerjaan WS - PT.INKA"
+      title : "Status Pengerjaan WS - Budikarya Teknik"
     }
   },
 
@@ -746,7 +746,7 @@ const routes = [
      name : 'GantChart Operation',
      component : GantChartOperation,
      meta : {
-      title : "Timeline Pengerjaan Operasi - PT.INKA"
+      title : "Timeline Pengerjaan Operasi - Budikarya Teknik"
      }
 
   },
@@ -756,7 +756,7 @@ const routes = [
     name : 'Status Pengerjaan Proyek',
     component : LihatStatusPengerjaanProyek,
     meta : {
-      title : "Status Pengerjaan Proyek - PT.INKA"
+      title : "Status Pengerjaan Proyek - Budikarya Teknik"
     }
   },
 
@@ -765,7 +765,7 @@ const routes = [
     name : 'Operasi by Produk',
     component : OperasibyProduct,
     meta : {
-      title : "Operasi by Produk - PT.INKA"
+      title : "Operasi by Produk - Budikarya Teknik"
     }
   },
 
@@ -774,7 +774,7 @@ const routes = [
     name : 'List Operator',
     component : ListOperator,
     meta : {
-      title : "List Operator - PT.INKA"
+      title : "List Operator - Budikarya Teknik"
     }
   },
 
@@ -792,7 +792,7 @@ const routes = [
     name : 'Tambah Kemampuan Operator',
     component : TambahKemampuanOperator,
     meta : {
-      title : "Tambah Kemampuan Operator - PT.INKA"
+      title : "Tambah Kemampuan Operator - Budikarya Teknik"
     }
   },
 
@@ -801,7 +801,7 @@ const routes = [
     name : 'List Operator Hadir',
     component : ListOperatorHadir,
     meta : {
-      title : "List Operator Hadir - PT.INKA"
+      title : "List Operator Hadir - Budikarya Teknik"
     }
   },
 
@@ -810,7 +810,7 @@ const routes = [
     name : 'List Rincian Proyek by Proyek DSP',
     component : ListRProyekbyProyekDSP,
     meta : {
-      title : "List Rincian Proyek by Proyek DSP - PT.INKA"
+      title : "List Rincian Proyek by Proyek DSP - Budikarya Teknik"
     }
   },
 
@@ -819,7 +819,7 @@ const routes = [
     name : 'List Produk by Rproyek DSP',
     component : ListProdukbyRProyekDSP,
     meta : {
-      title : "List Produk by Rincian Proyek DSP - PT.INKA"
+      title : "List Produk by Rincian Proyek DSP - Budikarya Teknik"
     }
   },
 
@@ -828,7 +828,7 @@ const routes = [
     name : 'Status Operasi',
     component : StatusOperasi,
     meta : {
-      title : "Status Operasi - PT.INKA"
+      title : "Status Operasi - Budikarya Teknik"
     }
   },
 
@@ -837,7 +837,7 @@ const routes = [
     name : 'List Tanggal Libur',
     component : ListTanggalLibur,
     meta : {
-      title : "List Tanggal Libur - PT.INKA"
+      title : "List Tanggal Libur - Budikarya Teknik"
     }
   },
 
@@ -846,7 +846,7 @@ const routes = [
     name : 'List Material Type By Supplier',
     component : ListMaterialTypeBySupplier,
     meta : {
-      title : "List Material Type By Supplier - PT.INKA"
+      title : "List Material Type By Supplier - Budikarya Teknik"
     }
   },
 
@@ -855,7 +855,7 @@ const routes = [
     name : 'Tambah Material Type By Pemasok',
     component : TambahMaterialTypebyPemasok,
     meta : {
-      title : "Tambah Material Type By Pemasok - PT.INKA"
+      title : "Tambah Material Type By Pemasok - Budikarya Teknik"
     }
   },
 
@@ -864,7 +864,7 @@ const routes = [
     name : 'List Purchase Item By Purchase Material',
     component : ListPurchaseItemByPurchaseMaterial,
     meta : {
-      title : "List Purchase Item By Purchase Material - PT.INKA"
+      title : "List Purchase Item By Purchase Material - Budikarya Teknik"
     }  
   },
   
@@ -873,7 +873,7 @@ const routes = [
     name : 'Tambah Purchase Item By Purchase Material',
     component : PurchaseMaterialItemByPurchaseMaterial,
     meta : {
-      title : "Tambah Purchase Item By Purchase Material - PT.INKA"
+      title : "Tambah Purchase Item By Purchase Material - Budikarya Teknik"
     }
   },
 
@@ -882,7 +882,7 @@ const routes = [
     name : 'List Stock Material By Orders',
     component : ListStockMaterialByOrders,
     meta : {
-      title : "List Stock Material by Orders - PT.INKA"
+      title : "List Stock Material by Orders - Budikarya Teknik"
     }
   },
 
@@ -891,7 +891,7 @@ const routes = [
     name : 'Add Material Stock By Purchase Item',
     component : AddMaterialStockbyPurchaseItem,
     meta : {
-      title : "Add Material Stock By Purchase Item - PT.INKA"
+      title : "Add Material Stock By Purchase Item - Budikarya Teknik"
     }
   },
 
@@ -901,7 +901,7 @@ const routes = [
     component : ListPurchaseMaterialStock,
     meta : {
 
-       title : "List Purchase Material Stock - PT.INKA"
+       title : "List Purchase Material Stock - Budikarya Teknik"
 
     }
   },
@@ -912,7 +912,7 @@ const routes = [
     component : ListPurchaseItemMaterialStock,
     meta : {
 
-        title : "List Purchase Item Material Stock - PT.INKA"
+        title : "List Purchase Item Material Stock - Budikarya Teknik"
     }
   },
 
@@ -921,7 +921,7 @@ const routes = [
     name : 'List Stock Material On WS',
     component : ListMaterialStockOnWs,
     meta : {
-      title : "List Stock Material On WS - PT.INKA "
+      title : "List Stock Material On WS - Budikarya Teknik "
     }
   },
 
@@ -931,7 +931,7 @@ const routes = [
     name : 'List Harus Pesan Material New',
     component : ListPesanMaterial,
     meta : {
-      title : "List Material Yang Harus Dipesan - PT.INKA"
+      title : "List Material Yang Harus Dipesan - Budikarya Teknik"
     }
 
   },
@@ -941,7 +941,7 @@ const routes = [
       name : 'List Hasil Pemesanan Material',
       component : HasilPesanMaterial,
       meta : {
-        title : "List Hasil Pemesanan Material - PT.INKA"
+        title : "List Hasil Pemesanan Material - Budikarya Teknik"
       }
 
   },
@@ -951,7 +951,7 @@ const routes = [
     name : 'Status Barcode',
     component : StatusBarcode,
     meta : {
-      title : "Status Barcode - PT.INKA"
+      title : "Status Barcode - Budikarya Teknik"
     }
   },
 
@@ -960,7 +960,7 @@ const routes = [
     name : 'Material Login',
     component : MaterialLogin,
     meta : {
-      title : "List Material Loin - PT.INKA"
+      title : "List Material Loin - Budikarya Teknik"
     }
   },
 
@@ -978,7 +978,7 @@ const routes = [
     name : 'Tambah Jenis Produk Internal',
     component : TambahJenisProdukInternal,
     meta : {
-        title : "Tambah Jenis Produk Internal - PT.INKA"
+        title : "Tambah Jenis Produk Internal - Budikarya Teknik"
     }
   },
 
@@ -987,7 +987,7 @@ const routes = [
     name : 'Tambah Struktur Jenis Produk By Parent',
     component : TambahStrukturJenisProdukByParent,
     meta : {
-      title : "Tambah Node Sturktur Jenis Produk - PT.INKA"
+      title : "Tambah Node Sturktur Jenis Produk - Budikarya Teknik"
     }
   },
 
@@ -996,7 +996,7 @@ const routes = [
     name : 'Daftar RFID',
     component : ListKartu,
     meta : {
-      title : "Daftar RFID - PT.INKA"
+      title : "Daftar RFID - Budikarya Teknik"
     }
   },
 
@@ -1005,7 +1005,7 @@ const routes = [
     name : 'Form Daftar RFID',
     component : FormKartu,
     meta : {
-      title : "Form Daftar RFID - PT.INKA"
+      title : "Form Daftar RFID - Budikarya Teknik"
     }
   },
   
@@ -1014,7 +1014,7 @@ const routes = [
     name : 'List Tool Box',
     component : ListToolBox,
     meta : {
-      title : "List Tool Box - PT.INKA"
+      title : "List Tool Box - Budikarya Teknik"
     }
   },
 
@@ -1023,7 +1023,7 @@ const routes = [
     name : 'Tambah Tool Box',
     component : TambahToolBox,
     meta : {
-      title : "Tambah Tool Box - PT.INKA"
+      title : "Tambah Tool Box - Budikarya Teknik"
     }
   },
 
@@ -1032,7 +1032,7 @@ const routes = [
     name : 'Tambah Tool Type Consumable',
     component : TambahToolTypeConsume,
     meta : {
-      title : "Tambah Tool Type Consumable - PT.INKA"
+      title : "Tambah Tool Type Consumable - Budikarya Teknik"
     }
   },
 
@@ -1041,7 +1041,7 @@ const routes = [
     name : 'Tambah Tool Type Non Consumable',
     component : TambahToolTypeNonConsume,
     meta : {
-      title : "Tambah Tool Type Non Consumable - PT.INKA"
+      title : "Tambah Tool Type Non Consumable - Budikarya Teknik"
     }
   },
 
@@ -1050,7 +1050,7 @@ const routes = [
     name : 'Tambah Tool Stock By Box',
     component : TambahToolStockByBox,
     meta : {
-      title : "Tambah Tool Stock By Box - PT.INKA"
+      title : "Tambah Tool Stock By Box - Budikarya Teknik"
     }
   },
 
@@ -1059,7 +1059,7 @@ const routes = [
     name : 'List Purchase Tools',
     component : ShowToolPurchase,
     meta : {
-        title : "List Purchase Tools - PT.INKA"
+        title : "List Purchase Tools - Budikarya Teknik"
     }
   },
  {
@@ -1067,7 +1067,7 @@ const routes = [
     name : 'Purchase Tools',
     component : AddToolPurchase,
     meta : {
-      title : "Add Purchase Tools - PT.INKA"
+      title : "Add Purchase Tools - Budikarya Teknik"
     }
 
  },
@@ -1078,7 +1078,7 @@ const routes = [
     name : 'List Purchase Item By Purchase Material New',
     component : ListPurchaseItembyPurchaseMaterialNew,
     meta : {
-        title : "List Purchase Item By Purchase Material - PT.INKA"
+        title : "List Purchase Item By Purchase Material - Budikarya Teknik"
     }
 
  },
@@ -1089,7 +1089,7 @@ const routes = [
      component : ListInformationPurchaseItemByPurchase,
      meta : {
 
-          title : "Information Purchase Item - PT.INKA"
+          title : "Information Purchase Item - Budikarya Teknik"
      }
 
  },
@@ -1099,7 +1099,7 @@ const routes = [
     name : 'List Purchase Material New',
     component : ListPurchaseMaterialNew,
     meta : {
-      title : "List Purchase Material New - PT.INKA"
+      title : "List Purchase Material New - Budikarya Teknik"
     }
  },
 
@@ -1108,7 +1108,7 @@ const routes = [
 //    name : 'List Purchase Item By Tool Purchase',
 //    component : ShowToolPurchaseItemByPurchase,
 //    meta : {
-//       title : "List Purchase Item By Tool Purchase - PT.INKA "
+//       title : "List Purchase Item By Tool Purchase - Budikarya Teknik "
 //    }
 
 //  ,
@@ -1119,7 +1119,7 @@ const routes = [
     name : 'List Peringkat Supplier',
     component : ListPeringkatSupplier,
     meta : {
-        title : "List Peringkat Supplier - PT.INKA"
+        title : "List Peringkat Supplier - Budikarya Teknik"
     }
 },
 
@@ -1128,7 +1128,7 @@ const routes = [
   name : 'List Detail Peringkat By Supplier',
   component : ListDetailPeringkatBySupplier,
   meta : {
-      title : "List Detail Peringkat Supplier - PT.INKA"
+      title : "List Detail Peringkat Supplier - Budikarya Teknik"
   }
 },
 
@@ -1138,7 +1138,7 @@ const routes = [
     name : 'List Peringkat Kriteria',
     component : ListPeringkatKriteria,
     meta : {
-      title : "List Peringkat Kriteria - PT.INKA"
+      title : "List Peringkat Kriteria - Budikarya Teknik"
     }
 
 
@@ -1150,7 +1150,7 @@ const routes = [
     name : 'List Purchase Item By Purchase Tools',
     component : ShowToolPurchaseItemByPurchase,
     meta : {
-        title : "List Purchase Item By Purchase - PT.INKA"
+        title : "List Purchase Item By Purchase - Budikarya Teknik"
     }
 
 },
@@ -1160,7 +1160,7 @@ const routes = [
    name : 'List Tools Stock By Purchase Item',
    component : ShowToolStockByPurchaseItem,
    meta : {
-      title : "List Tool Stock By Purchase Item - PT.INKA"
+      title : "List Tool Stock By Purchase Item - Budikarya Teknik"
    }
 
 },
@@ -1170,7 +1170,7 @@ const routes = [
   name : 'List Tool Stock',
   component : ShowToolStock,
   meta : {
-    title : "List Tool Stock - PT.INKA"
+    title : "List Tool Stock - Budikarya Teknik"
   }
 
 },
@@ -1180,7 +1180,7 @@ const routes = [
   name : 'List Detail Tool Stock By Tool Stock',
   component : ShowDetailToolStock,
   meta : {
-    title : "List Detail Tool Stock - PT.INKA"
+    title : "List Detail Tool Stock - Budikarya Teknik"
   }
 },
 
@@ -1190,7 +1190,7 @@ const routes = [
    name : 'Choose Kebutuhan Tool',
    component : ChooseKebutuhanTool,
    meta : {
-      title : "Kebutuhan Perkakas - PT.INKA"
+      title : "Kebutuhan Perkakas - Budikarya Teknik"
    }
 
 },
@@ -1201,7 +1201,7 @@ const routes = [
     name : 'Perhitungan Kriteria',
     component : PerhitunganKriteria,
     meta : {
-       title : "Perhitungan Kriteria - PT.INKA"
+       title : "Perhitungan Kriteria - Budikarya Teknik"
     }
 
 },
@@ -1212,7 +1212,7 @@ const routes = [
   name : 'Perhitungan Supplier',
   component : PerhitunganSupplier,
   meta : {
-    titlee : "Perhitungan Supplier - PT.INKA"
+    titlee : "Perhitungan Supplier - Budikarya Teknik"
   }
 
 },
@@ -1222,7 +1222,7 @@ const routes = [
    name : 'List Kriteria Pemasok',
    component : ListKriteriaPemasok,
    meta : {
-    title : "List Kriteria Pemasok - PT.INKA"
+    title : "List Kriteria Pemasok - Budikarya Teknik"
    }
 
 },
@@ -1232,7 +1232,7 @@ const routes = [
   name : 'Add Kriteria Pemasok',
   component : AddKriteriaPemasok,
   meta : {
-      title  : "Add Kriteria Pemasok - PT.INKA"
+      title  : "Add Kriteria Pemasok - Budikarya Teknik"
   }
 
 
@@ -1243,7 +1243,7 @@ const routes = [
    name : 'Add Distribusi Tools',
    component : AddDistribusiTools,
    meta : {
-       title : "Add Distribusi Tools - PT.INKA"
+       title : "Add Distribusi Tools - Budikarya Teknik"
    }
 
 },
@@ -1253,7 +1253,7 @@ const routes = [
   name : 'Add Pengadaan Tools',
   component : AddPengadaanPerkakas,
   meta : {
-     title : "Add Pengadaan Tools - PT.INKA"
+     title : "Add Pengadaan Tools - Budikarya Teknik"
   }
 
 
@@ -1265,7 +1265,7 @@ const routes = [
   name : 'Choose Tool Stock Pengemasan',
   component : ChooseToolStockByToolType,
   meta : {
-      title : "Pengemasan Tool Stock - PT.INKA"
+      title : "Pengemasan Tool Stock - Budikarya Teknik"
   }
 
 },
@@ -1277,7 +1277,7 @@ const routes = [
    component : ChooseToolStockByToolType2,
    meta : {
 
-      title : "Pengemasan Tool Stock Non Box - PT.INKA"
+      title : "Pengemasan Tool Stock Non Box - Budikarya Teknik"
 
    }
 
@@ -1290,7 +1290,7 @@ const routes = [
   component : PengemasanToolStock,
   meta : {
 
-      title : "Pilih Pengemasan Box Item  - PT.INKA"
+      title : "Pilih Pengemasan Box Item  - Budikarya Teknik"
 
   },
   props : true
@@ -1313,7 +1313,7 @@ const routes = [
     component : HasilPengadaanTools,
     meta : {
 
-        title : "Hasil Pengadaan Tools - PT.INKA"
+        title : "Hasil Pengadaan Tools - Budikarya Teknik"
     }
 
 },
@@ -1325,7 +1325,7 @@ const routes = [
   name : 'List Tool Need By Process',
   component : ListToolNeedByProcess,
   meta : {
-     title : "List Tool Need By Process - PT.INKA"
+     title : "List Tool Need By Process - Budikarya Teknik"
   }
 },
 
@@ -1336,7 +1336,7 @@ const routes = [
     component : ShowToolPengembalian,
     meta : {
 
-        title : "List Tool Pengembalian - PT.INKA"
+        title : "List Tool Pengembalian - Budikarya Teknik"
     }
 
 },
@@ -1346,7 +1346,7 @@ const routes = [
    name : 'List Penghitung Matrix',
    component : ListPenghitungKriteria,
    meta : {
-      title : "List Penghitung Kriteria - PT.INKA"
+      title : "List Penghitung Kriteria - Budikarya Teknik"
    }
 
 },
@@ -1357,7 +1357,7 @@ const routes = [
     component : SearchToolsPosition,
     meta : {
 
-        title : "Search Tools Position - PT.INKA"
+        title : "Search Tools Position - Budikarya Teknik"
     }
 },
 
@@ -1368,7 +1368,7 @@ const routes = [
   component : ListAdminPenghitung,
   meta : {
 
-      title : "List Admin Penghitung - PT.INKA" 
+      title : "List Admin Penghitung - Budikarya Teknik" 
   }
 },
 
@@ -1378,7 +1378,7 @@ const routes = [
     name : 'List Hasil Perbandingan Supplier Admin',
     component : HasilPerbandinganSupplierByAdmin,
     meta : {
-      title : "Hasil Perbandingan Supplier By Admin - PT.INKA"
+      title : "Hasil Perbandingan Supplier By Admin - Budikarya Teknik"
     }
 
 },
@@ -1391,7 +1391,7 @@ const routes = [
   component : ListToolNeedByWorkstation,
   meta : {
 
-    title : "List Tool Need By Workstation - PT.INKA"
+    title : "List Tool Need By Workstation - Budikarya Teknik"
   },
   props : true
 
@@ -1403,7 +1403,7 @@ const routes = [
    component : ShowKetersediaanToolsByWS,
    meta : {
 
-      title : "List Ketersediaan Perkakas By Workstation - PT.INKA"
+      title : "List Ketersediaan Perkakas By Workstation - Budikarya Teknik"
    }
 
 },
@@ -1415,7 +1415,7 @@ const routes = [
   name : 'Choose Peminjaman Tool',
   component : ChoosePeminjamanOrPengembalian,
   meta : {
-      title : "Peminjaman &  Pengembalian Tool - PT.INKA"
+      title : "Peminjaman &  Pengembalian Tool - Budikarya Teknik"
   }
 
 },
@@ -1426,7 +1426,7 @@ const routes = [
     component : AddPeminjamanTools,
     meta : {
 
-        title : "Add Peminjaman Tools - PT.INKA"
+        title : "Add Peminjaman Tools - Budikarya Teknik"
     }
 
 },
@@ -1437,7 +1437,7 @@ const routes = [
   component : HasilRequestPeminjaman,
   meta : {
 
-      title : "Hasil Request Peminjaman Tools - PT.INKA"
+      title : "Hasil Request Peminjaman Tools - Budikarya Teknik"
   }
 
 },
@@ -1448,7 +1448,7 @@ const routes = [
   name : 'Choose Workstation Pengembalian Perkakas',
   component : ChooseWorkstation,
   meta : {
-     title : "Choose Workstation Pengembalian Tool - PT.INKA"
+     title : "Choose Workstation Pengembalian Tool - Budikarya Teknik"
   }
 
 },
@@ -1459,7 +1459,7 @@ const routes = [
     component : ShowToolsOnWorkstation,
     meta : {
 
-      title : "Show Tools On Workstation - PT.INKA"
+      title : "Show Tools On Workstation - Budikarya Teknik"
 
     }
 
@@ -1469,7 +1469,7 @@ const routes = [
      name : 'List Hasil Perhitungan Kriteria',
      component : ListHasilPerhitunganKriteria,
      meta : {
-        title : "List Hasil Perhitungan Kriteria - PT.INKA"
+        title : "List Hasil Perhitungan Kriteria - Budikarya Teknik"
      }
 
 },
@@ -1481,7 +1481,7 @@ const routes = [
   component : ListPenghitungSupplier,
   meta : {
  
-      title : "List Penghitung Supplier - PT.INKA"
+      title : "List Penghitung Supplier - Budikarya Teknik"
   }
 },
 
@@ -1490,7 +1490,7 @@ const routes = [
    name : 'List Hasil Perhitungan Supplier 1',
    component : ListHasilPerhitunganSupplier1,
    meta : {
-      title : "List Hasil Perhitungan Supplier 1 - PT.INKA"
+      title : "List Hasil Perhitungan Supplier 1 - Budikarya Teknik"
    }
 
 },
@@ -1501,7 +1501,7 @@ const routes = [
    component : ListHasilPerhitunganSupplier2,
    meta : {
 
-      title : "List Hasil Perhitungan Supplier 2 - PT.INKA"
+      title : "List Hasil Perhitungan Supplier 2 - Budikarya Teknik"
    }
 
 },
@@ -1511,7 +1511,7 @@ const routes = [
     name : 'List Hasil Perhitungan Kriteria By Admin',
     component : HasilPerhitunganKriteriaByAdmin,
     meta : {
-       title : "Hasil Perhitungan Kriteria By Admin - PT.INKA"
+       title : "Hasil Perhitungan Kriteria By Admin - Budikarya Teknik"
     }
 
 },
@@ -1521,7 +1521,7 @@ const routes = [
   name : 'Hasil Perhitungan Bobot Peringkat Supplier By Admin',
   component : HasilBobotPeringkatSupplierByAdmin,
   meta : {
-    title : "Hasil Bobot dan Peringkat Supplier - PT.INKA"
+    title : "Hasil Bobot dan Peringkat Supplier - Budikarya Teknik"
   }
 
 },
@@ -1532,7 +1532,7 @@ const routes = [
    name : 'Hasil Matriks Kriteria dan Bobot By Admin',
    component : HasilMatriksKriteriaByAdmin,
    meta : {
-      title : "Hasil Matriks Kriteria Bobot By Admin - PT.INKA"
+      title : "Hasil Matriks Kriteria Bobot By Admin - Budikarya Teknik"
    }
 }
 
@@ -1542,7 +1542,7 @@ const routes = [
 //    name : 'List Tool Need By Process',
 //    component : ListToolsByProcess,
 //    meta : {
-//       title : "List Tool Need By Process - PT.INKA"
+//       title : "List Tool Need By Process - Budikarya Teknik"
 
 //    }
 // }
