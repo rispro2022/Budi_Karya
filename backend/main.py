@@ -502,6 +502,10 @@ class main():
     def get_listprocess():
         hasil = ShowProses()
         return hasil
+    
+    @app.route('/proses/get_listprocess_dropdown',methods = ['GET'])
+    def get_listprocess_dropdown():
+        return ShowAllProcessDropDown()
 
     @app.route('/proses/get_process_by_sjproduct/<idNodal>',methods = ['GET'])
     def get_process_by_sjproduct(idNodal):

@@ -31,7 +31,7 @@
       required
       ></v-text-field>
 
-      <v-autocomplete
+      <!-- <v-autocomplete
       v-model="classificationCode"
       :items="list_klasifikasi"
       item-text="descriptions"
@@ -47,24 +47,24 @@
       item-value="code"
       label="Grup"
       required
-      ></v-autocomplete>
+      ></v-autocomplete> -->
 
       <v-text-field
       v-model="nama"
       label="Nama"
       ></v-text-field>
-
+<!-- 
       <v-checkbox
       v-model="isAvailable"
       label="Is Available?"
       required
-      ></v-checkbox>
+      ></v-checkbox> -->
 
-      <v-checkbox
+      <!-- <v-checkbox
       v-model="isAssy"
       label="Is Assy?"
       required
-      ></v-checkbox>
+      ></v-checkbox> -->
 
       <v-btn
       :disabled="!valid"
@@ -98,7 +98,7 @@
       kode: '',
       kodeRules: [
         v => !!v || 'Kode is required',
-        v => (v && v.length <= 12 && v.length >= 3) || 'Kode must be 3-12 characters',
+        v => (v && v.length <= 4 && v.length >= 4) || 'Code must be 3 characters',
       ],
       classificationCode: null,
       groupCode: null,
@@ -162,12 +162,12 @@
         try{
           const axios = require('axios')
           const res = await axios.post('/material/add_type',{
-              code : this.code,
-              nama : this.nama,
-              isAvailable : this.isAvailable,
-              isAssy : this.isAssy,
-              classificationCode : this.classificationCode,
-              groupCode : this.groupCode
+              code : this.kode,
+              nama : this.nama
+              // isAvailable : this.isAvailable,
+              // isAssy : this.isAssy,
+              // classificationCode : this.classificationCode,
+              // groupCode : this.groupCode
           })
         
           if(res.data.status == "berhasil"){

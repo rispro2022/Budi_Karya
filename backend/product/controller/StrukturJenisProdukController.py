@@ -99,7 +99,7 @@ def AddSJProdukByJenisProduk(id_jproduk):
     query = "INSERT INTO prd_r_strukturjnsprd(idNodal,indukNodal,jnsProduk,materialTypeCode,nama,jumlah,satuan)VALUES(%s,%s,'"+temp+"',%s,%s,%s,%s)"
     try :
         data = request.json
-        idNodal = data["idNodal"]
+        idNodal =  id_jproduk + data["idNodal"]
         indukNodal = data["indukNodal"]
         materialTypeCode = data["materialTypeCode"]
         nama = data["nama"]
@@ -107,6 +107,7 @@ def AddSJProdukByJenisProduk(id_jproduk):
         satuan = data["satuan"]
         if indukNodal == "":
             indukNodal = ""
+        
             values = (idNodal,indukNodal,materialTypeCode,nama,jumlah,satuan)
             cursor.execute(query,values)
             conn.commit()
