@@ -44,11 +44,11 @@
             </v-card>
           <br><br>
              
-          <router-link :to="{name : 'Tambah Struktur Jenis Produk by Jenis Produk',params : {id : `${this.$route.params.id}`}}">
+           <router-link :to="{name : 'Tambah Struktur Jenis Produk by Jenis Produk',params : {id : `${this.$route.params.id}`}}">
                 <v-btn color="primary" class="d-flex ml-4 mb-6">
                    Tambah Struktur Produk
                 </v-btn>
-            </router-link>
+            </router-link> 
                 <v-data-table
                     :headers = "column"
                     :items = "sjproduk"
@@ -111,6 +111,23 @@
                                     </v-tooltip>
                             </router-link>
 
+                            <router-link :to="{name : 'Tambah Struktur Jenis Produk By Parent',params : {id : `${item.idNodal}`}}" >
+                                <v-tooltip top>
+                                    <template v-slot:activator="{ on, attrs }">
+                                        <v-btn 
+                                        class="mx-1" 
+                                        x-small
+                                        color="yellow"
+                                        @click="selectSJProduct(item)"
+                                        v-bind="attrs"
+                                        v-on="on">
+                                        <v-icon small dark>mdi-check</v-icon>
+                                        </v-btn>
+                                    </template>
+                                    <span>Tambah Str. Jenis Produk By Parent</span>
+                                </v-tooltip>
+                            </router-link>
+
                             <v-tooltip top>
                                 <template v-slot:activator="{ on, attrs }">
                                     <v-btn 
@@ -141,22 +158,7 @@
                                 <span>Delete</span>
                             </v-tooltip>
 
-                            <router-link :to="{name : 'Tambah Struktur Jenis Produk By Parent',params : {id : `${item.idNodal}`}}" >
-                                <v-tooltip top>
-                                    <template v-slot:activator="{ on, attrs }">
-                                        <v-btn 
-                                        class="mx-1" 
-                                        x-small
-                                        color="yellow"
-                                        @click="selectSJProduct(item)"
-                                        v-bind="attrs"
-                                        v-on="on">
-                                        <v-icon small dark>mdi-check</v-icon>
-                                        </v-btn>
-                                    </template>
-                                    <span>Tambah Str. Jenis Produk By Parent</span>
-                                </v-tooltip>
-                            </router-link>
+                            
                         </div>
                     </template>
                 </v-data-table>
