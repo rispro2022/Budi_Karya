@@ -31,11 +31,12 @@ def AddMaterialTypeSupplierbySupplier(code):
     for data in records:
         code_supplier = data[0]
     
-    query_insert = "INSERT INTO mat_r_materialtypesupplier(materialTypeCode,supplierCode)VALUES(%s,%s)"
+    query_insert = "INSERT INTO mat_r_materialtypesupplier(materialTypeCode,supplierCode,IDKriteria)VALUES(%s,%s,%s)"
     try:
         data = request.json
         materialTypeCode = data["materialTypeCode"]
-        values = (materialTypeCode,code_supplier)
+        IDKriteria = None
+        values = (materialTypeCode,code_supplier,IDKriteria)
         cursor.execute(query_insert,values)
         conn.commit()
         hasil = {"status" : "berhasil"}
