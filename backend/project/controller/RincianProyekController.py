@@ -160,7 +160,8 @@ def AddRincianProyekByProyek(id_proyek):
         counter2 = 0
 
         while boolean :
-            f = open("C:\\Users\Rispro LPDP\operasi04\demofile3.txt", "r")
+            #f = open("C:\\Users\Rispro LPDP\operasi04\demofile3.txt", "r")
+            f = open("C:\\fix\operasi04\operasi04\demofile3.txt", "r")
             read = f.read()
             print("nilai : ",read)
             if read == '0':
