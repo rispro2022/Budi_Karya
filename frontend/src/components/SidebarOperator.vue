@@ -111,7 +111,7 @@
 
                     
                 </v-carousel-item>
-                <v-carousel-item>
+                <!-- <v-carousel-item>
                     <v-row
                         class="fill-height"
                         :align="center"
@@ -133,7 +133,7 @@
               
                     </v-row>
                    
-                </v-carousel-item>
+                </v-carousel-item> -->
             </v-carousel>
             </div>
             
