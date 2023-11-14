@@ -45,7 +45,7 @@ def AddNewCustomer():
         postalcode = data["postalcode"]
         phone = data["phone"]
         fax = data["fax"]
-        email = data["email"]
+        email = "-"
         situs = data["situs"]
         pic = data["pic"]
         remark = data["remark"]

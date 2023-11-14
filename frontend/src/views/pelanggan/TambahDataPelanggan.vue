@@ -67,11 +67,11 @@
         label="Fax."
         ></v-text-field>
 
-        <v-text-field
+        <!-- <v-text-field
         v-model="email"
         :rules="emailRules"
         label="Email"
-        ></v-text-field>
+        ></v-text-field> -->
 
         <v-text-field
         v-model="situs"
@@ -133,7 +133,7 @@
       ],
       kota: undefined,
       items: undefined,
-      email: '',
+     
       emailRules: [
         v => /.+@.+\..+/.test(v) || 'E-mail must be valid',
       ],
@@ -203,7 +203,6 @@
               postalcode: this.kodePos,
               phone: this.noTelepon,
               fax: this.fax,
-              email: this.email,
               situs: this.situs,
               pic: this.pic,
               remark: this.catatan,
